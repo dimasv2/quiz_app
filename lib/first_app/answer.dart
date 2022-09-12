@@ -9,7 +9,7 @@ class Answer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 200,
+      width: 500,
       height: 50,
       child: SizedBox(
         height: 100.0,

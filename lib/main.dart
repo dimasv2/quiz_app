@@ -21,30 +21,37 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
-      'questionText': 'apa warna favoritmu?',
+      'questionText':
+          '1. Suatu hari seekor burung biru masuk ke dalam kamar kamu melalui jendela dan terperangkap didalam. Kamu tertarik dan memutuskan untuk memeliharanya. Akan tetapi esoknya kamu terkejut karena burung itu berubah warna menjadi kuning, dan esoknya lagi berubah warna menjadi merah terang, dan hari ketiga berubah menjadi warna hitam. Menurutmu burung tersebut akan berubah menjadi warna apa di hari ke-4?',
       'answers': [
-        {'text': 'hitam', 'score': 10},
-        {'text': 'merah', 'score': 5},
-        {'text': 'biru', 'score': 3},
-        {'text': 'putih', 'score': 1},
+        {
+          'text':
+              'A. Burung tersebut tidak berubah warna. Tetap berwarna hitam',
+          'score': 10
+        },
+        {'text': 'B. Berubah kembali menjadi biru', 'score': 5},
+        {'text': 'C. Berubah Jadi Putih', 'score': 3},
+        {'text': 'D. Berubah jadi Emas', 'score': 1},
       ],
     },
     {
-      'questionText': 'apa hewan kesukaanmu?',
+      'questionText':
+          '2. Sebuah mug (cangkir besar) berwarna putih polos diberikan kepada kamu bersama dengan kuas berwarna biru. Kamu diminta untuk melakukan pola atau motif pada mug tersebut. Kira-kira pola atau motif apa yang akan kamu lukis ?',
       'answers': [
-        {'text': 'kelinci', 'score': 3},
-        {'text': 'kucing', 'score': 11},
-        {'text': 'gajah', 'score': 5},
-        {'text': 'tikus', 'score': 9},
+        {'text': 'A. Garis-garis', 'score': 3},
+        {'text': 'B. Titik-titik acak dan bersilang', 'score': 11},
+        {'text': 'C. Centang', 'score': 5},
+        {'text': 'D. Garis-garis berombak', 'score': 9},
       ],
     },
     {
-      'questionText': 'apa makanan kesukaanmu?',
+      'questionText':
+          '3. Pertama, bayangkan kamu memandang hamparan langit yang membuatmu bersemangat dan bahagia. Lalu, alihkan mata untuk membayangkan pemandangan lain. Manakah bayangan berikut yang membuat kamu santai dan tenang ?',
       'answers': [
-        {'text': 'ayam bakar', 'score': 1},
-        {'text': 'mie ayam', 'score': 1},
-        {'text': 'nasi goreng', 'score': 1},
-        {'text': 'pecel', 'score': 1},
+        {'text': 'A. Dataran penuh salju putih', 'score': 1},
+        {'text': 'B. Lautan biru', 'score': 2},
+        {'text': 'C. Gunung yang hijau', 'score': 2},
+        {'text': 'D. Taman yang penuh dengan bunga', 'score': 2},
       ],
     },
   ];
